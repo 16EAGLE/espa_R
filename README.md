@@ -6,4 +6,4 @@ The client does not offer querying by search parameters such as date or region, 
 
 This client's functionality is integrated into the <a href="https://github.com/16eagle/getSpatialData">getSpatialData<a/> package for R, which allows you to not only use USGS-EROS ESPA as a source for Landsat data, but also Amazon AWS.
 
-<a href="https://github.com/16eagle/getSpatialData">https://github.com/16eagle/getSpatialData<a/>.
+See also: <a href="https://github.com/16eagle/getSpatialData">https://github.com/16eagle/getSpatialData<a/>.
