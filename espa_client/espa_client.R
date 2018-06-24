@@ -169,7 +169,7 @@ espa.download <- function(pid.dir, pid, arc.dir, api.user, api.passw, api.url = 
       skip <- T
     } else { skip <- F}
     
-    ## if there is something to donload, do it, otherwise either stop or recycle
+    ## if there is something to download, do it, otherwise either stop or recycle
     if(!isTRUE(skip) & isTRUE(run)){
       
       down <- lapply(seq(1, length(task$name[sub.download])), function(i, t = task[sub.download,], d = arc.dir){
